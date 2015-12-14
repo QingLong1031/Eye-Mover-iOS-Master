@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="sl5-Dz-tMk" customClass="MYCustomPanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNb-k6-HS2">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="uvc-w2-fog"/>
+                        <constraint firstAttribute="width" constant="95" id="waj-No-OFW">
+                            <variation key="widthClass=compact" constant="135"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="uvc-w2-fog"/>
+                            <exclude reference="waj-No-OFW"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="uvc-w2-fog"/>
+                            <include reference="waj-No-OFW"/>
+                        </mask>
+                    </variation>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oLJ-vC-oRL">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <attributedString key="attributedText">
+                        <fragment content="The “">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" metaFont="system"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="friendly eye-mover">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Arial-BoldMT"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">” is a small app, that will help you to very effectively introduce relaxation and stress relief into your hectic everyday life. All humans are enjoying these phases of rapid eye movement in their daily sleep, when our experiences of the day are being processed. Using this app, it will enable you, to also benefit from this positive processing even being awake. As a result you will immediately feel a pleasant freshness, relaxation and a mental recreation. This will happen easily and without any negative side effects. 
+Using this app it allows you to introduce small ‘islands of recreation’ in the course of your frantic day. If you are preparing for an important meeting, an important job, a difficult conversation or other challenges in front of you, or even just for end of work, you will like to enjoy the positive effect this little app can provide for you. It will support you to generate a good and effective basis for whatever you will need it. 
+With your eyes you will just follow an animated symbol from right to left, on different levels by looking up, straight forward and downwards. Additionally this visual recreational effect will be supported by an alternating sound switching from one ear to the other. Similar to what happens when you are learning how to juggle you will anticipate synchronization between the two hemispheres of your brain. Rational thinking and creativity will be revealed and supported. Use this as a basis for recovery, relaxation or to gain full attention and performance whenever it is needed. 
+Further information on how this principle is working and applied in face-to-face wingwave® coaching sessions you will find here: www.coachmylife.de/was-ist-wingwave/ or here:  www.wingwave.com/en   The friendly-eye-mover, because it works!
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" metaFont="system"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.96813841540404044" green="0.96813841540404044" blue="0.96813841540404044" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="oLJ-vC-oRL" secondAttribute="trailing" constant="17" id="EHs-K7-LeT">
+                    <variation key="widthClass=compact" constant="16"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="xNb-k6-HS2" secondAttribute="centerX" constant="5" id="G26-dK-yAa">
+                    <variation key="widthClass=compact" constant="3.5"/>
+                </constraint>
+                <constraint firstItem="oLJ-vC-oRL" firstAttribute="centerX" secondItem="sl5-Dz-tMk" secondAttribute="centerX" id="M8D-kz-b3n"/>
+                <constraint firstItem="xNb-k6-HS2" firstAttribute="top" secondItem="sl5-Dz-tMk" secondAttribute="top" constant="29" id="ZV9-RK-fWg">
+                    <variation key="widthClass=compact" constant="40"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="oLJ-vC-oRL" secondAttribute="centerY" id="b7l-BQ-UGf">
+                    <variation key="widthClass=compact" constant="-12.5"/>
+                </constraint>
+                <constraint firstItem="oLJ-vC-oRL" firstAttribute="top" secondItem="xNb-k6-HS2" secondAttribute="bottom" constant="8" id="uaL-ma-r4D">
+                    <variation key="widthClass=compact" constant="13"/>
+                </constraint>
+                <constraint firstItem="oLJ-vC-oRL" firstAttribute="leading" secondItem="sl5-Dz-tMk" secondAttribute="leading" constant="16" id="zJk-gU-HxC"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="xNb-k6-HS2"/>
+                    <exclude reference="oLJ-vC-oRL"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="G26-dK-yAa"/>
+                    <exclude reference="ZV9-RK-fWg"/>
+                    <exclude reference="EHs-K7-LeT"/>
+                    <exclude reference="M8D-kz-b3n"/>
+                    <exclude reference="b7l-BQ-UGf"/>
+                    <exclude reference="uaL-ma-r4D"/>
+                    <exclude reference="zJk-gU-HxC"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="xNb-k6-HS2"/>
+                    <include reference="oLJ-vC-oRL"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="G26-dK-yAa"/>
+                    <include reference="ZV9-RK-fWg"/>
+                    <include reference="EHs-K7-LeT"/>
+                    <include reference="M8D-kz-b3n"/>
+                    <include reference="b7l-BQ-UGf"/>
+                    <include reference="uaL-ma-r4D"/>
+                    <include reference="zJk-gU-HxC"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="206" y="329"/>
+        </view>
+    </objects>
+</document>

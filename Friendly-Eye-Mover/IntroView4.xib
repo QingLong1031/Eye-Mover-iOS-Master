@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="t4c-4B-DZQ" customClass="MYCustomPanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Closing Page" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvS-Rg-a35">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="138" id="TxR-8X-Sof"/>
+                        <constraint firstAttribute="height" constant="24" id="lsd-SO-k1j"/>
+                        <constraint firstAttribute="width" constant="95" id="rt0-IM-InG">
+                            <variation key="widthClass=compact" constant="135"/>
+                        </constraint>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="TxR-8X-Sof"/>
+                            <exclude reference="lsd-SO-k1j"/>
+                            <exclude reference="rt0-IM-InG"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="TxR-8X-Sof"/>
+                            <exclude reference="lsd-SO-k1j"/>
+                            <exclude reference="rt0-IM-InG"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIf-FV-hDk">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" image="mark_other.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="goCoachmylife:" destination="t4c-4B-DZQ" eventType="touchUpInside" id="c6q-Pr-i34"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KX0-b4-Tzh">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="84" id="Ecg-QX-mEV"/>
+                    </constraints>
+                    <state key="normal" image="mark2 2.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Ecg-QX-mEV"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Ecg-QX-mEV"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="goWingWave:" destination="t4c-4B-DZQ" eventType="touchUpInside" id="OKt-DN-edt"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsW-xr-SIJ">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="185" id="EGZ-Lb-96V">
+                            <variation key="widthClass=compact" constant="168"/>
+                        </constraint>
+                    </constraints>
+                    <state key="normal" image="www_mark.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="EGZ-Lb-96V"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="EGZ-Lb-96V"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="goCoachmylife:" destination="t4c-4B-DZQ" eventType="touchUpInside" id="GgF-Gw-oG1"/>
+                    </connections>
+                </button>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T1R-ac-YvD" customClass="HBVLinkedTextView">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="cl4-Ja-HXG">
+                            <variation key="widthClass=compact" constant="284"/>
+                        </constraint>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Says thank you for using the Friendly-Eye-Mover
+Have a nice and relaxed day.</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Visit us on ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="www.Coachmylife.de">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <url key="NSLink" string="http://www.coachmylife.de/"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="where you will find  additional information about  wingwave">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica-Light"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica-Light"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Did you like the Friendly-Eye-Mover?">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="9" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Leave a comment or Like on  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="www.facebook.com/">
+                            <attributes>
+                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Helvetica"/>
+                                <url key="NSLink" string="http://www.facebook.com/coachmylife.de"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="coachmylife.de">
+                            <attributes>
+                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <url key="NSLink" string="http://www.facebook.com/coachmylife.de"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="- Thank you –">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000004" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="14" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="clipping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.6499999999999999" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="cl4-Ja-HXG"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <mask key="constraints">
+                            <include reference="cl4-Ja-HXG"/>
+                        </mask>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.96813841540000001" green="0.96813841540000001" blue="0.96813841540000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="T1R-ac-YvD" firstAttribute="leading" secondItem="t4c-4B-DZQ" secondAttribute="leading" constant="16" id="3Ue-yL-sSe">
+                    <variation key="widthClass=compact" constant="17"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="KX0-b4-Tzh" secondAttribute="centerX" constant="-0.5" id="5B7-Et-7t8"/>
+                <constraint firstItem="UvS-Rg-a35" firstAttribute="centerY" secondItem="t4c-4B-DZQ" secondAttribute="top" constant="2" id="Cro-9k-pfg">
+                    <variation key="widthClass=compact" constant="32"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="ZIf-FV-hDk" secondAttribute="centerX" id="DIq-fy-7vV"/>
+                <constraint firstItem="T1R-ac-YvD" firstAttribute="centerX" secondItem="t4c-4B-DZQ" secondAttribute="centerX" id="Ddo-o1-JT9">
+                    <variation key="widthClass=compact" constant="0.5"/>
+                </constraint>
+                <constraint firstItem="UvS-Rg-a35" firstAttribute="top" secondItem="t4c-4B-DZQ" secondAttribute="top" constant="19" id="EmF-tv-Xm5"/>
+                <constraint firstItem="KX0-b4-Tzh" firstAttribute="leading" secondItem="t4c-4B-DZQ" secondAttribute="leading" constant="110" id="Iml-JQ-XEA"/>
+                <constraint firstItem="KX0-b4-Tzh" firstAttribute="top" secondItem="T1R-ac-YvD" secondAttribute="bottom" constant="-25" id="Jn1-mE-Jd8"/>
+                <constraint firstAttribute="centerX" secondItem="UvS-Rg-a35" secondAttribute="centerX" constant="-7" id="K2t-c5-GlH"/>
+                <constraint firstItem="T1R-ac-YvD" firstAttribute="top" secondItem="ZIf-FV-hDk" secondAttribute="bottom" constant="19" id="Nbx-kC-hA0"/>
+                <constraint firstAttribute="bottom" secondItem="TsW-xr-SIJ" secondAttribute="bottom" constant="24" id="Z7k-HC-xZv">
+                    <variation key="widthClass=compact" constant="27"/>
+                </constraint>
+                <constraint firstItem="TsW-xr-SIJ" firstAttribute="top" secondItem="KX0-b4-Tzh" secondAttribute="bottom" constant="8" symbolic="YES" id="e6j-cb-Wxo"/>
+                <constraint firstAttribute="trailing" secondItem="T1R-ac-YvD" secondAttribute="trailing" constant="17" id="fiZ-Zi-408">
+                    <variation key="widthClass=compact" constant="16"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="T1R-ac-YvD" secondAttribute="centerY" id="hJa-kr-bfV">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="ZIf-FV-hDk" firstAttribute="leading" secondItem="t4c-4B-DZQ" secondAttribute="leading" constant="73" id="hTs-Od-QaV"/>
+                <constraint firstItem="ZIf-FV-hDk" firstAttribute="top" secondItem="UvS-Rg-a35" secondAttribute="bottom" constant="22" id="l7Y-ZH-qcv"/>
+                <constraint firstAttribute="centerX" secondItem="TsW-xr-SIJ" secondAttribute="centerX" id="mK8-wi-jsz"/>
+                <constraint firstAttribute="centerX" secondItem="UvS-Rg-a35" secondAttribute="centerX" constant="5" id="rzd-uc-Deb">
+                    <variation key="widthClass=compact" constant="-7"/>
+                </constraint>
+                <constraint firstItem="T1R-ac-YvD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="t4c-4B-DZQ" secondAttribute="leading" constant="16" id="z14-e2-Leh">
+                    <variation key="widthClass=compact" constant="8"/>
+                </constraint>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="UvS-Rg-a35"/>
+                    <exclude reference="ZIf-FV-hDk"/>
+                    <exclude reference="KX0-b4-Tzh"/>
+                    <exclude reference="TsW-xr-SIJ"/>
+                    <exclude reference="T1R-ac-YvD"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="3Ue-yL-sSe"/>
+                    <exclude reference="Ddo-o1-JT9"/>
+                    <exclude reference="Nbx-kC-hA0"/>
+                    <exclude reference="fiZ-Zi-408"/>
+                    <exclude reference="hJa-kr-bfV"/>
+                    <exclude reference="z14-e2-Leh"/>
+                    <exclude reference="Cro-9k-pfg"/>
+                    <exclude reference="EmF-tv-Xm5"/>
+                    <exclude reference="K2t-c5-GlH"/>
+                    <exclude reference="rzd-uc-Deb"/>
+                    <exclude reference="5B7-Et-7t8"/>
+                    <exclude reference="Iml-JQ-XEA"/>
+                    <exclude reference="Jn1-mE-Jd8"/>
+                    <exclude reference="Z7k-HC-xZv"/>
+                    <exclude reference="e6j-cb-Wxo"/>
+                    <exclude reference="mK8-wi-jsz"/>
+                    <exclude reference="DIq-fy-7vV"/>
+                    <exclude reference="hTs-Od-QaV"/>
+                    <exclude reference="l7Y-ZH-qcv"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="UvS-Rg-a35"/>
+                    <include reference="ZIf-FV-hDk"/>
+                    <include reference="KX0-b4-Tzh"/>
+                    <include reference="TsW-xr-SIJ"/>
+                    <include reference="T1R-ac-YvD"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="3Ue-yL-sSe"/>
+                    <include reference="Ddo-o1-JT9"/>
+                    <include reference="Nbx-kC-hA0"/>
+                    <include reference="fiZ-Zi-408"/>
+                    <include reference="hJa-kr-bfV"/>
+                    <include reference="z14-e2-Leh"/>
+                    <include reference="Cro-9k-pfg"/>
+                    <include reference="EmF-tv-Xm5"/>
+                    <include reference="K2t-c5-GlH"/>
+                    <include reference="rzd-uc-Deb"/>
+                    <include reference="5B7-Et-7t8"/>
+                    <include reference="Iml-JQ-XEA"/>
+                    <include reference="Jn1-mE-Jd8"/>
+                    <include reference="Z7k-HC-xZv"/>
+                    <include reference="e6j-cb-Wxo"/>
+                    <include reference="mK8-wi-jsz"/>
+                    <include reference="DIq-fy-7vV"/>
+                    <include reference="hTs-Od-QaV"/>
+                    <include reference="l7Y-ZH-qcv"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="linkedTextView" destination="T1R-ac-YvD" id="Icd-J7-vSe"/>
+            </connections>
+            <point key="canvasLocation" x="206" y="329"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mark2 2.png" width="306" height="163"/>
+        <image name="mark_other.png" width="388" height="103"/>
+        <image name="www_mark.png" width="266" height="80"/>
+    </resources>
+</document>

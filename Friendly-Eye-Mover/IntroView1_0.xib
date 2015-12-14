@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="rZB-1o-Wgd" customClass="MYCustomPanel1">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beschreibung" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUb-QO-Lao">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="b3I-NM-Z32">
+                            <variation key="widthClass=compact" constant="155"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="24" id="nPm-FH-oxX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="b3I-NM-Z32"/>
+                            <exclude reference="nPm-FH-oxX"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="b3I-NM-Z32"/>
+                            <exclude reference="nPm-FH-oxX"/>
+                        </mask>
+                    </variation>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ALr-DS-6Ug">
+                    <attributedString key="attributedText">
+                        <fragment content="Der ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="“">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                <font key="NSOriginalFont" size="13" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="friendly-eye-mover">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica-Bold"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="”">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="HelveticaNeue"/>
+                                <font key="NSOriginalFont" size="13" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica-Bold"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">ist eine kleine App die dabei hilft, sehr effektiv Entspannung in unseren hektischen Alltag zu holen. Die schnellen Phasen der Augenbewegungen (rapid-eye-movements), die wir Menschen alle mehrmals im Schlaf durchlaufen, helfen uns, unsere Tageserlebnisse im Schlaf zu verarbeiten. Mit dieser App gelingt es, diesen Verarbeitungsprozess spontan im Wachzustand zu generieren. Das Ergebnis ist eine angenehme Frische, Entspannung und mentale Erholung, einfach und ohne Nebenwirkungen.
+So eingesetzt erlaubt die App im hektischen Tagesgeschehen kurze und sehr effektive Erholungsinseln in unseren Alltag zu integrieren. Egal, ob Sie sich auf ein wichtiges Meeting vorbereiten, einen wichtigen Geschäftstermin haben, ein schwieriges Gespräch erledigen, vor (z.B. sportlichen) Herausforderungen stehen oder sich am Feierabend einfach etwas erholen wollen. Diese App wird Ihnen dabei helfen, ein gutes, effektives und mentales Fundament hierfür zu schaffen.
+Sie folgen mit Ihren Augen einfach einem bewegten Symbol von rechts nach links, auf verschiedenen Ebenen, zuerst mit dem Blick nach oben, dann geradeaus schauend und danach mit den Augen nach unten gerichtet. Zusätzlich wird die visuell angeregte Entspannung noch durch einen angenehm zwischen dem linken und rechten Ohr pendelnden Ton auch auditiv unterstützt. Ähnlich wie beim Jonglieren findet hierbei eine Synchronisation der rechten und linken Hemisphäre im Gehirn statt. Beides, Ihr rationales Denken und Ihre Kreativität wir somit unterstützt und gefördert, als Basis für Erholung oder vorbereitend für Ihre volle Performance und Aufmerksamkeit. 
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Weitere">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" Informationen zu dem Wirkprinzip und der Anwendung im wingwave®-Coaching finden Sie hier: ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="www.coachmylife.de/was-ist-wingwave/">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" oder hier: ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment content="w">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <url key="NSLink" string="http://www.wingwave.com/home.html"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="ww.wingwave.com">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <url key="NSLink" string="http://www.wingwave.com/home.html"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+ </string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+CQ
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Helvetica-Bold"/>
+                                <font key="NSOriginalFont" size="13" name="Helvetica-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="5" paragraphSpacingBefore="5" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.96813841540000001" green="0.96813841540000001" blue="0.96813841540000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="ALr-DS-6Ug" firstAttribute="top" secondItem="EUb-QO-Lao" secondAttribute="bottom" constant="8" id="0wb-6c-VBu">
+                    <variation key="widthClass=compact" constant="14"/>
+                </constraint>
+                <constraint firstItem="ALr-DS-6Ug" firstAttribute="centerX" secondItem="EUb-QO-Lao" secondAttribute="centerX" id="1tW-KV-Aos"/>
+                <constraint firstItem="EUb-QO-Lao" firstAttribute="centerX" secondItem="rZB-1o-Wgd" secondAttribute="centerX" id="8R8-0P-pML"/>
+                <constraint firstItem="EUb-QO-Lao" firstAttribute="top" secondItem="rZB-1o-Wgd" secondAttribute="top" constant="29" id="ITs-uW-O8b">
+                    <variation key="widthClass=compact" constant="39"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="ALr-DS-6Ug" secondAttribute="centerY" id="qK5-GG-3jF">
+                    <variation key="widthClass=compact" constant="-12.5"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="ALr-DS-6Ug" secondAttribute="trailing" constant="16" id="qpD-6f-bxc"/>
+                <constraint firstItem="ALr-DS-6Ug" firstAttribute="leading" secondItem="rZB-1o-Wgd" secondAttribute="leading" constant="17" id="xdm-he-luA"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="EUb-QO-Lao"/>
+                    <exclude reference="ALr-DS-6Ug"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="0wb-6c-VBu"/>
+                    <exclude reference="1tW-KV-Aos"/>
+                    <exclude reference="qK5-GG-3jF"/>
+                    <exclude reference="qpD-6f-bxc"/>
+                    <exclude reference="xdm-he-luA"/>
+                    <exclude reference="8R8-0P-pML"/>
+                    <exclude reference="ITs-uW-O8b"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="EUb-QO-Lao"/>
+                    <include reference="ALr-DS-6Ug"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="0wb-6c-VBu"/>
+                    <include reference="1tW-KV-Aos"/>
+                    <include reference="qK5-GG-3jF"/>
+                    <include reference="qpD-6f-bxc"/>
+                    <include reference="xdm-he-luA"/>
+                    <include reference="8R8-0P-pML"/>
+                    <include reference="ITs-uW-O8b"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="720" y="329"/>
+        </view>
+    </objects>
+</document>

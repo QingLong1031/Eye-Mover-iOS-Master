@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MYCustomPanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tII-7z-1rh">
+                    <rect key="frame" x="26" y="33" width="169" height="40"/>
+                    <attributedString key="attributedText">
+                        <fragment content="Impressum">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="24" name="TimesNewRomanPS-BoldMT"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="27d-hJ-BVE">
+                    <rect key="frame" x="26" y="142" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Angaben gemäß § 5 TMG:
+
+Matthias Laatsch
+Coachmylife
+Krupunder Grund 21
+25469 Halstenbek
+Germany
+
+USt-IdNr.: DE291334452
+Finanzamt Pinneberg
+
+Kontakt:
+Telefon: 0172/4472694
+E-Mail: info@Coachmylife.de
+
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
+Matthias Laatsch
+Krupunder Grund 21
+25469 Halstenbek
+Quelle: http://www.e-recht24.de
+
+Disclaimer: 
+Die Coachmylife.de- Website beinhaltet aktuelle und relevante Informationen allgemeiner Art. Dennoch übernehmen wir keine Gewähr für Vollständigkeit, Richtigkeit und Aktualität der Inhalte. Das gilt auch für die Inhalte externer Websites, die mit dieser Seite verlinkt sind.   In einem Urteil vom 12. Mai 1998 hat das Landgericht Hamburg entschieden, dass man durch Einbindung eines Hyperlinks für die Inhalte der gelinkten Seite unter Umständen mit verantwortlich ist.   Dies kann – so das Landgericht – alleine dadurch verhindert werden, dass man sich ausdrücklich von deren Inhalten distanziert.   Für sämtliche im Internetangebot genannten Hyperlinks gilt deshalb:   Wir betonen ausdrücklich, dass wir keinerlei Einfluss auf die Gestaltung und die Inhalte der gelinkten Seiten haben. Wir distanzieren uns hiermit von allen Inhalten der verlinkten Seiten und machen uns ihre Inhalte nicht zueigen.
+</string>
+                            <attributes>
+                                <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" calendarEvent="YES"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="27d-hJ-BVE" secondAttribute="centerX" id="Bfg-r8-x73"/>
+                <constraint firstItem="tII-7z-1rh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="22" id="KyJ-wA-uxk"/>
+                <constraint firstAttribute="centerY" secondItem="27d-hJ-BVE" secondAttribute="centerY" constant="-10" id="Liz-FF-l3E"/>
+                <constraint firstItem="27d-hJ-BVE" firstAttribute="top" secondItem="tII-7z-1rh" secondAttribute="bottom" constant="8" id="Uij-tG-We4"/>
+                <constraint firstItem="27d-hJ-BVE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="18" id="aSU-rb-hy9"/>
+                <constraint firstItem="tII-7z-1rh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="vu3-PW-aq9"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="KyJ-wA-uxk"/>
+                    <exclude reference="vu3-PW-aq9"/>
+                    <exclude reference="Bfg-r8-x73"/>
+                    <exclude reference="Liz-FF-l3E"/>
+                    <exclude reference="Uij-tG-We4"/>
+                    <exclude reference="aSU-rb-hy9"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="KyJ-wA-uxk"/>
+                    <include reference="vu3-PW-aq9"/>
+                    <include reference="Bfg-r8-x73"/>
+                    <include reference="Liz-FF-l3E"/>
+                    <include reference="Uij-tG-We4"/>
+                    <include reference="aSU-rb-hy9"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

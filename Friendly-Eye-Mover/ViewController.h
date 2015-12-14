@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController {
+    
+    UIInterfaceOrientation prevInterfaceOrientation;
+    IBOutlet UIButton *startBtn;
+    IBOutlet UIButton *explanationBtn;
+    NSString *startInfo;
+    
+}
 
+- (IBAction)showIntro:(id)sender;
+- (IBAction)showExplanation:(id)sender;
 
 @end
 

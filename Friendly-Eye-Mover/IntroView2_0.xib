@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="nrm-S2-rTY" customClass="MYCustomPanel1">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Anwendung" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PSQ-fo-zqE">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="DVs-XB-gMC">
+                            <variation key="widthClass=compact" constant="135"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="24" id="JXX-mQ-ilI"/>
+                        <constraint firstAttribute="width" constant="139" id="Lft-Xc-8mT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="DVs-XB-gMC"/>
+                            <exclude reference="JXX-mQ-ilI"/>
+                            <exclude reference="Lft-Xc-8mT"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="DVs-XB-gMC"/>
+                            <exclude reference="JXX-mQ-ilI"/>
+                            <exclude reference="Lft-Xc-8mT"/>
+                        </mask>
+                    </variation>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="howtouseit_mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="QXC-nM-3mh">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="189" id="F1n-Bh-Mew">
+                            <variation key="widthClass=compact" constant="174"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="99" id="J2G-XY-vhH">
+                            <variation key="widthClass=compact" constant="100"/>
+                        </constraint>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="F1n-Bh-Mew"/>
+                            <exclude reference="J2G-XY-vhH"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="F1n-Bh-Mew"/>
+                            <include reference="J2G-XY-vhH"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Prb-Aq-42d">
+                    <attributedString key="attributedText">
+                        <fragment content="ACHTUNG:">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="ComicSansMS-Bold"/>
+                                <font key="NSOriginalFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">Wenden Sie diese App niemals beim Führen eines Kfz oder beim Bedienen von Maschinen an.
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000001" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">       •	 Beim ersten Mal, lesen Sie      	 den Abschnitt:       	 Hintergrundinformation: Wie und      	 warum  es funktioniert 
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">  •	 </string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">Verwenden Sie einen Kopfhörer.
+   •	 Schalten Sie Störungen (Telefon, 	      	 Benachrichtigungen, …) ab.
+
+  •	 Setzen Sie sich entspannt hin.  	Füße, Beine und Arme sind parallel </string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">und entspannt. 	Tief durchatmen.  	Schultern, Kiefer, Arme locker.  
+  •	Wählen Sie den Abstand zwischen  </string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Ihren Augen und dem Bildschirm so  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="nah, dass die Augenbewegungen  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="dabei möglichst viel Weg  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">zurücklegen können. (Querformat).
+
+  •	Folgen Sie mit Ihren Augen dem sich  </string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="bewegenden Smiley, ohne dass Sie  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">dabei Ihren Kopf mitbewegen.
+
+  •	Benutzen Sie die App täglich 2x, </string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="solange, bis Sie eine angenehme  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="  ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+ICAJIA
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="11" name="Symbol"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Entspannung fühlen. ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Aber das geht doch nicht, der Bildschirm ist doch viel zu klein… ">
+                            <attributes>
+                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000001" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> Stellen Sie sich doch einfach einmal das Pendel einer schönen alten Standuhr vor. An der Aufhängung des Pendels ist die Bewegung klein. An der Spitze des Pendels ist die Bewegung groß.
+Eine andere Metapher, zur Beschreibung wie es funktioniert, ist ein Segelboot, welches im Hafen liegt und bei niedrigen Wellen langsam vor sich hin schaukelt. Ein bisschen rechts – ein bisschen links – ein bisschen rechts – ein bisschen links… Das Boot selber bewegt sich nur gering. Und nun denken Sie doch einmal an die Spitze des Mastes. Diese hat einen viel größeren Ausschlag, eine größere Amplitude, als das darunter befindliche Boot.
+ Und genau so können Sie Ihre Augen bewegen. Sie müssen das sich bewegende Smiley nicht direkt fokussieren. Sie dürfen die Augen auch über den Bildschirmrand Ihres Handys rechts und links hinaus bewegen, so dass diese einen möglichst großen Weg zurücklegen. 
+ Das bewegte Smiley ist das Boot, Ihre Augen sind die Mastspitze:
+</string>
+                            <attributes>
+                                <color key="NSBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="10" tailIndent="468" lineHeightMultiple="1.1500000000000001" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.96813841540000001" green="0.96813841540000001" blue="0.96813841540000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="QXC-nM-3mh" secondAttribute="centerX" id="2ck-9F-pd8"/>
+                <constraint firstItem="Prb-Aq-42d" firstAttribute="centerX" secondItem="nrm-S2-rTY" secondAttribute="centerX" id="Cvc-Ex-mdP"/>
+                <constraint firstAttribute="centerX" secondItem="PSQ-fo-zqE" secondAttribute="centerX" constant="5" id="Hd5-7B-4q8">
+                    <variation key="widthClass=compact" constant="-0.5"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="Prb-Aq-42d" secondAttribute="centerY" id="JW6-IT-w2I">
+                    <variation key="widthClass=compact" constant="38"/>
+                </constraint>
+                <constraint firstItem="Prb-Aq-42d" firstAttribute="top" secondItem="PSQ-fo-zqE" secondAttribute="bottom" constant="8" id="LRN-X2-Dp2">
+                    <variation key="widthClass=compact" constant="8"/>
+                </constraint>
+                <constraint firstItem="Prb-Aq-42d" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nrm-S2-rTY" secondAttribute="leading" constant="16" id="OIG-b1-j2o"/>
+                <constraint firstItem="QXC-nM-3mh" firstAttribute="top" secondItem="Prb-Aq-42d" secondAttribute="bottom" constant="8" id="V19-vN-jWr"/>
+                <constraint firstAttribute="trailing" secondItem="Prb-Aq-42d" secondAttribute="trailing" constant="17" id="j0v-g7-E1T">
+                    <variation key="widthClass=compact" constant="16"/>
+                </constraint>
+                <constraint firstItem="Prb-Aq-42d" firstAttribute="leading" secondItem="nrm-S2-rTY" secondAttribute="leading" constant="16" id="w3i-pE-PUL">
+                    <variation key="widthClass=compact" constant="17"/>
+                </constraint>
+                <constraint firstItem="PSQ-fo-zqE" firstAttribute="top" secondItem="nrm-S2-rTY" secondAttribute="top" constant="29" id="xeV-O5-iPV">
+                    <variation key="widthClass=compact" constant="35"/>
+                </constraint>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="PSQ-fo-zqE"/>
+                    <exclude reference="QXC-nM-3mh"/>
+                    <exclude reference="Prb-Aq-42d"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Hd5-7B-4q8"/>
+                    <exclude reference="xeV-O5-iPV"/>
+                    <exclude reference="Cvc-Ex-mdP"/>
+                    <exclude reference="JW6-IT-w2I"/>
+                    <exclude reference="LRN-X2-Dp2"/>
+                    <exclude reference="OIG-b1-j2o"/>
+                    <exclude reference="j0v-g7-E1T"/>
+                    <exclude reference="w3i-pE-PUL"/>
+                    <exclude reference="2ck-9F-pd8"/>
+                    <exclude reference="V19-vN-jWr"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="PSQ-fo-zqE"/>
+                    <include reference="QXC-nM-3mh"/>
+                    <include reference="Prb-Aq-42d"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Hd5-7B-4q8"/>
+                    <include reference="xeV-O5-iPV"/>
+                    <include reference="Cvc-Ex-mdP"/>
+                    <include reference="JW6-IT-w2I"/>
+                    <include reference="LRN-X2-Dp2"/>
+                    <include reference="OIG-b1-j2o"/>
+                    <include reference="j0v-g7-E1T"/>
+                    <include reference="w3i-pE-PUL"/>
+                    <include reference="2ck-9F-pd8"/>
+                    <include reference="V19-vN-jWr"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="206" y="329"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="howtouseit_mark.png" width="197" height="146"/>
+    </resources>
+</document>

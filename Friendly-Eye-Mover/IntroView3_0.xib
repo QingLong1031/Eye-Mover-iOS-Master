@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="OPS-rb-2ag" customClass="MYCustomPanel1">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b1M-vi-FTj">
+                    <attributedString key="attributedText">
+                        <fragment>
+                            <string key="content">Aus dem Coaching-Basis-Buch: „wingwave – wie der Flügelschlag eines Schmetterlings“,  Cora Besser-Siegmund und Harry Siegmund, Junfermann-Verlag 2010</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Menlo-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="Selbstcoaching-Tipp: mit „Augenturnen“ das Stressfenster öffnen:">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Menlo-Italic"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                                <integer key="NSUnderline" value="1"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+Sie können jederzeit von der ent-stressenden Wirkung der gelösten  Augenbewegungen profitieren, indem Sie diese einfach zur allgemeinen Entspannung einsetzen. Wann immer Sie einen Leerlauf haben – in der Warteschlange im Supermarkt, bei Stehen an der roten Ampel,  – lassen Sie Ihre Augen bewusst ein bisschen „turnen“ – das belebt und lockert die jeweils sechs Muskelpaare, welche unseren Augapfel und somit unseren Blick steuern. 
+
+Unser Blick ist im zivilisierten Alltag  allzu oft zur „Erstarrung“ verurteilt: beim Lesen, Fernsehen, am PC-Monitor. Diese Einengung auf Monitor-Format erinnert sehr an das so genannte „Stress-Fenster“ aus der Pilotensprache. Hier spielt die kompakte Anordnung von Handlungssymbolen und –schaltern eine wichtige Funktion im Notprogramm. Eine Notsituation kann auch beim erfahrenen Piloten Stress auslösen und zum „Tunnelblick“ führen: Der Pilot verliert die Lebhaftigkeit im Blick, starrt vor sich hin und kann nur noch eingeschränkt die wichtigsten Schalter und Hebel, welche für eine glimpfliche Landung wichtig wären, finden und bedienen. Deshalb sind diese auf kleinstem Feld zentral im Blickfeld angeordnet. Kein wichtiger Schalter ist etwa neben dem Sitz oder ganz oben an der Konsole angebracht, da der gestresste Mensch nur im eingeschränkten Blickfeldradius wahrnimmt.
+ 
+Nach dem Augenturnen lassen Sie die Augen wie beim Tagträumen geöffnet ruhen. Schauen Sie leicht in die Ferne und defokussieren sie dabei den Blick. Sie werden nun feststellen, dass Sie einen sehr weiten Blickradius haben und auch ohne Augenbewegungen ganz weit nach links und rechts hin die Peripherie wahrnehmen können. Daher nennt man diesen Tagtraum-Blick auch den „peripheren Blick“. Auch Ihre  Mitmenschen reagieren unbewusst äußerst positiv auf diesen peripheren Blick. Lassen Sie die Augen gelöst im Blickkontakt ruhen und nehmen sie den ganzen peripheren Rahmen wahr, der die Person umgibt. Ihr Gesprächspartner erlebt diese Art des Angeschaut-Werden als freundlich, interessiert und warm. Man hat in Experimenten festgestellt, dass ein starrer, gestresster Blick beim Gegenüber Spannungen bis hin zu ängstlichen Gefühlen auslösen kann. Der gelöste Blick hilft demnach auch, eine angenehme Kommunikations-Atmosphäre zu fördern.
+ 
+Der „gelöste“ und auch lebhafte Blick macht also gleichermaßen angenehm wach, entspannt, vergrößert den Wahrnehmungsradius und öffnet für Sie und Andere mögliche Stressfenster. Er wirkt  automatisch befreiend und beruhigend.  
+
+Ein gezieltes Augenturnen ist somit auch außerdem eine ideale „Mental-Erfrischung“ für zwischendurch am Schreibtisch-Arbeitsplatz. Ist der Blick im „Flow“ fließen auch Gedanken, Gefühle und Gespräche wieder optimal.
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" tailIndent="468" defaultTabInterval="36">
+                                    <tabStops/>
+                                </paragraphStyle>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hintergrundinformation:          Wie und warum es funktioniert" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QuK-Ik-E9e">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="DO8-eo-z2d">
+                            <variation key="widthClass=compact" constant="308"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="24" id="DxQ-Sk-XBc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="19"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="DO8-eo-z2d"/>
+                            <exclude reference="DxQ-Sk-XBc"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="DO8-eo-z2d"/>
+                            <exclude reference="DxQ-Sk-XBc"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.96813841540000001" green="0.96813841540000001" blue="0.96813841540000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="b1M-vi-FTj" firstAttribute="centerX" secondItem="OPS-rb-2ag" secondAttribute="centerX" id="Cqi-aE-yPi"/>
+                <constraint firstAttribute="centerX" secondItem="QuK-Ik-E9e" secondAttribute="centerX" constant="5" id="UhU-AU-CWo">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="b1M-vi-FTj" firstAttribute="leading" secondItem="OPS-rb-2ag" secondAttribute="leading" constant="17" id="ZZg-HL-JWy"/>
+                <constraint firstAttribute="centerY" secondItem="b1M-vi-FTj" secondAttribute="centerY" id="iKt-3h-c7r">
+                    <variation key="widthClass=compact" constant="-17.5"/>
+                </constraint>
+                <constraint firstItem="b1M-vi-FTj" firstAttribute="top" secondItem="QuK-Ik-E9e" secondAttribute="bottom" constant="8" id="qVB-qQ-Jlf">
+                    <variation key="widthClass=compact" constant="8"/>
+                </constraint>
+                <constraint firstItem="QuK-Ik-E9e" firstAttribute="top" secondItem="OPS-rb-2ag" secondAttribute="top" constant="29" id="tAH-md-uTn">
+                    <variation key="widthClass=compact" constant="26"/>
+                </constraint>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="b1M-vi-FTj"/>
+                    <exclude reference="QuK-Ik-E9e"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="UhU-AU-CWo"/>
+                    <exclude reference="tAH-md-uTn"/>
+                    <exclude reference="Cqi-aE-yPi"/>
+                    <exclude reference="ZZg-HL-JWy"/>
+                    <exclude reference="iKt-3h-c7r"/>
+                    <exclude reference="qVB-qQ-Jlf"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="b1M-vi-FTj"/>
+                    <include reference="QuK-Ik-E9e"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="UhU-AU-CWo"/>
+                    <include reference="tAH-md-uTn"/>
+                    <include reference="Cqi-aE-yPi"/>
+                    <include reference="ZZg-HL-JWy"/>
+                    <include reference="iKt-3h-c7r"/>
+                    <include reference="qVB-qQ-Jlf"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="206" y="329"/>
+        </view>
+    </objects>
+</document>

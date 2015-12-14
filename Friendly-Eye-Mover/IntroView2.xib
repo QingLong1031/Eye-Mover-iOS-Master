@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="AnF-HL-GXP" customClass="MYCustomPanel">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to use it" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etf-S2-dRv">
+                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="95" id="9sU-Cc-SPf">
+                            <variation key="widthClass=compact" constant="135"/>
+                        </constraint>
+                        <constraint firstAttribute="width" constant="139" id="YyB-Sh-F11"/>
+                        <constraint firstAttribute="height" constant="24" id="zVT-Gy-nM4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="black" pointSize="21"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="9sU-Cc-SPf"/>
+                            <exclude reference="YyB-Sh-F11"/>
+                            <exclude reference="zVT-Gy-nM4"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <exclude reference="9sU-Cc-SPf"/>
+                            <exclude reference="YyB-Sh-F11"/>
+                            <exclude reference="zVT-Gy-nM4"/>
+                        </mask>
+                    </variation>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="howtouseit_mark.png" translatesAutoresizingMaskIntoConstraints="NO" id="nmx-gg-pR4">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="189" id="DyE-6W-oSo">
+                            <variation key="widthClass=compact" constant="174"/>
+                        </constraint>
+                        <constraint firstAttribute="height" constant="99" id="hTA-h1-urM">
+                            <variation key="widthClass=compact" constant="100"/>
+                        </constraint>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="DyE-6W-oSo"/>
+                            <exclude reference="hTA-h1-urM"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="DyE-6W-oSo"/>
+                            <include reference="hTA-h1-urM"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dMc-I9-l2Z">
+                    <attributedString key="attributedText">
+                        <fragment content="Attention:">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="ComicSansMS-Bold"/>
+                                <font key="NSOriginalFont" size="13" name="ComicSansMS-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content">
+
+Don’t use this app during driving or working on machines or similar.
+       •	 First time you use it, read the section:   	 “Background information: How and   	 why it works” 
+  •	 Use your headphones.    •	 Eliminate any interruption   	 or disturbance. 
+  •	 Sit down relaxed.
+	Feet, legs, arms are in parallel position.
+	Take a deep breath.
+	Keep your shoulders,    	 jaw and arms loose. 
+  •	 Adjust the distance between your eyes   	 and the screen in a way that it allows a   	 maximum way of travel for your eyes   	 (use landscape orientation) 
+  •	 Let your eyes follow the animated   	 Smiley, without moving your head. 
+  •	 Use this app twice a day as long as   	 you like, until you feel a pleasant   	 recreation.
+ </string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content=" ">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="“This is not going to work, my screen is much too small…”">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="13" name="Georgia-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="Georgia-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content"> Imagine a pendulum in a nice old historical hall clock. The movement of this pendulum is pretty narrow on the top, but much wider on the bottom.  Another metaphor to explain how it works is to look at a sailing boat in a marina being moved by little tiny waves from right a bit to the left – a bit to the right – a bit to the left – a bit to the right... The boat itself is moving only very little. And now think of the movement of the tip of the boats mast. This tip follows a very wider movement and amplitude.
+ This is exactly how you can move your eyes. You don`t need to directly focus on the animated smiley. You are allowed, to move your eyes also beyond the screens borders ensuring a maximum way of travel for your eyes.
+ The animated smiley stands for the boat, your eyes are the tip of the mast:</string>
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                        <fragment>
+                            <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                            <attributes>
+                                <font key="NSFont" size="12" name=".HelveticaNeueDeskInterface-Regular"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                    <variation key="widthClass=compact">
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    </variation>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.96813841540000001" green="0.96813841540000001" blue="0.96813841540000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="nmx-gg-pR4" firstAttribute="centerX" secondItem="dMc-I9-l2Z" secondAttribute="centerX" id="7qR-13-3pa">
+                    <variation key="widthClass=compact" constant="-0.5"/>
+                </constraint>
+                <constraint firstItem="dMc-I9-l2Z" firstAttribute="leading" secondItem="AnF-HL-GXP" secondAttribute="leading" constant="17" id="Lio-sP-jyO"/>
+                <constraint firstItem="etf-S2-dRv" firstAttribute="top" secondItem="AnF-HL-GXP" secondAttribute="top" constant="29" id="WWd-Q0-Qzk">
+                    <variation key="widthClass=compact" constant="35"/>
+                </constraint>
+                <constraint firstItem="dMc-I9-l2Z" firstAttribute="centerX" secondItem="AnF-HL-GXP" secondAttribute="centerX" id="dFA-Hb-lkg"/>
+                <constraint firstItem="nmx-gg-pR4" firstAttribute="top" secondItem="dMc-I9-l2Z" secondAttribute="bottom" constant="15" id="dl9-Ux-UVX">
+                    <variation key="widthClass=compact" constant="8"/>
+                </constraint>
+                <constraint firstItem="dMc-I9-l2Z" firstAttribute="top" secondItem="etf-S2-dRv" secondAttribute="bottom" constant="8" id="hhm-6T-qxg">
+                    <variation key="widthClass=compact" constant="8"/>
+                </constraint>
+                <constraint firstAttribute="centerY" secondItem="dMc-I9-l2Z" secondAttribute="centerY" id="rGi-nb-e5a">
+                    <variation key="widthClass=compact" constant="38"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="etf-S2-dRv" secondAttribute="centerX" constant="5" id="tV5-ug-ImR">
+                    <variation key="widthClass=compact" constant="16"/>
+                </constraint>
+                <constraint firstAttribute="centerX" secondItem="nmx-gg-pR4" secondAttribute="centerX" constant="16" id="wIM-rY-YRT">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="etf-S2-dRv"/>
+                    <exclude reference="nmx-gg-pR4"/>
+                    <exclude reference="dMc-I9-l2Z"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Lio-sP-jyO"/>
+                    <exclude reference="dFA-Hb-lkg"/>
+                    <exclude reference="hhm-6T-qxg"/>
+                    <exclude reference="rGi-nb-e5a"/>
+                    <exclude reference="WWd-Q0-Qzk"/>
+                    <exclude reference="tV5-ug-ImR"/>
+                    <exclude reference="7qR-13-3pa"/>
+                    <exclude reference="dl9-Ux-UVX"/>
+                    <exclude reference="wIM-rY-YRT"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="etf-S2-dRv"/>
+                    <include reference="nmx-gg-pR4"/>
+                    <include reference="dMc-I9-l2Z"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Lio-sP-jyO"/>
+                    <include reference="dFA-Hb-lkg"/>
+                    <include reference="hhm-6T-qxg"/>
+                    <include reference="rGi-nb-e5a"/>
+                    <include reference="WWd-Q0-Qzk"/>
+                    <include reference="tV5-ug-ImR"/>
+                    <include reference="7qR-13-3pa"/>
+                    <include reference="dl9-Ux-UVX"/>
+                    <include reference="wIM-rY-YRT"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="206" y="329"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="howtouseit_mark.png" width="197" height="146"/>
+    </resources>
+</document>
